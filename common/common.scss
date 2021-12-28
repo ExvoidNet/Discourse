@@ -110,7 +110,7 @@ body {
       color: $color-white;
     }
   } 
-/*  .discourse-no-touch & {
+  .discourse-no-touch & {
     &:hover, 
     &.btn-hover {
       background-color: $danger-hover;
@@ -119,7 +119,7 @@ body {
         color: $color-cream;
       }
     }
-  }*/
+  }
 }
 
 .btn-primary {
@@ -165,8 +165,7 @@ ul.nav-pills {
 .topic-map {
   border: 1px solid;
   border-radius: $radius-6;
-  /*border-color: $color-cream*/
-  border-color: $header-gradient;
+  border-color: $color-cream;
 }
 
 .topic-map section {
