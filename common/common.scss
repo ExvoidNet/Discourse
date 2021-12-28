@@ -163,12 +163,12 @@ ul.nav-pills {
 }
 
 .topic-map {
-  border-top: none;
+  border-top: 3px solid;
   border-size: 3px solid;
   border-radius: $radius-6;
 }
 
-.topic-map-expended {
+.topic-map section {
   border-top: none;
 }
 
