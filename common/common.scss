@@ -162,6 +162,11 @@ ul.nav-pills {
   font-size: 1.1em;
 }
 
+.map map-collapsed {
+  border-size 2px;
+  border-radius: $radius-6;
+}
+
 // User Page
 // *------------------------------------------------*
 .user-content {
