@@ -1,3 +1,8 @@
+// To Do
+// - Not all buttons are round
+// - Change header buttons to white
+// - Remove the icon/avatar hover color
+
 @import 'variables';
 
 @font-face {
@@ -30,10 +35,6 @@ body {
 .d-header {
   background-image: $header-gradient;
   height: 3.10em;
-}
-
-.d-header > .header-buttons {
-  color: white;
 }
 
 .menu-panel {
@@ -155,6 +156,12 @@ body {
 
 ul.nav-pills {
   padding-left: 10px;
+}
+
+// Categories
+// *------------------------------------------------*
+.subcategories {
+  border-radius: $radius-4
 }
 
 // Topic Page
