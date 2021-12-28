@@ -163,8 +163,8 @@ ul.nav-pills {
 }
 
 .topic-map {
-  border-color: $color-cream;
-  border-size: 2px solid;
+  border-top: 0px;
+  border-size: 2px solid var($color-cream);
   border-radius: $radius-6;
 }
 
