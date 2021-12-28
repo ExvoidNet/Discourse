@@ -162,8 +162,9 @@ ul.nav-pills {
   font-size: 1.1em;
 }
 
-.map map-collapsed {
-  border-size 2px;
+.topic-map {
+  border-color $color-grey
+  border-size 2px solid;
   border-radius: $radius-6;
 }
 
