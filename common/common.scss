@@ -110,7 +110,7 @@ body {
       color: $color-white;
     }
   } 
-  .discourse-no-touch & {
+/*  .discourse-no-touch & {
     &:hover, 
     &.btn-hover {
       background-color: $danger-hover;
@@ -119,7 +119,7 @@ body {
         color: $color-cream;
       }
     }
-  }
+  }*/
 }
 
 .btn-primary {
@@ -163,13 +163,13 @@ ul.nav-pills {
 }
 
 .topic-map {
-  border-top: 3px solid;
-  border-size: 3px solid;
+  border: 1px solid;
   border-radius: $radius-6;
 }
 
 .topic-map section {
   border-top: none;
+  background-color: transparent;
 }
 
 // User Page
