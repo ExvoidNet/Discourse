@@ -164,7 +164,8 @@ ul.nav-pills {
 
 .topic-map {
   border: 1px solid;
-  border-radius: $radius-6 var(--primary-low);
+  border-radius: $radius-6;
+  border-color: $color-bgrey;
 }
 
 .topic-map section {
