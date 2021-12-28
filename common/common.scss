@@ -23,7 +23,18 @@ body {
 // *------------------------------------------------*
 .d-header {
   background-image: $header-gradient;
-  height: 4.5em;
+  height: 3.10em;
+}
+
+.header-buttons {
+  color: white;
+}
+
+.discourse-no-touch &:hover,
+.discourse-no-touch &:focus {
+  .d-icon {
+        color: transparent;
+  }
 }
 
 .menu-panel {
