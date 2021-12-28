@@ -1,6 +1,12 @@
 @import 'variables';
 
+@font-face {
+  font-family: Gotham;
+  src: url($GothamBook) format('ttf')
+}
+
 body {
+  font-family: Gotham;
   background-attachment: fixed;
   background-size: 1096px;
   @if $no-background-image == "false" {
@@ -26,12 +32,8 @@ body {
   height: 3.10em;
 }
 
-.header-buttons {
+.d-header > .header-buttons {
   color: white;
-}
-
-.icon-hover {
-  color: none;
 }
 
 .menu-panel {
