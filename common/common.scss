@@ -189,6 +189,15 @@ ul.nav-pills {
   background: transparent;
 }
 
+.staff-counters {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-top-left-radius: $radius-6;
+  border-top-right-radius: $radius-6;
+  z-index: 2;
+
 // Advanced Search
 // *------------------------------------------------*
 .search-container .search-advanced-sidebar {
