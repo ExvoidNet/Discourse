@@ -188,14 +188,14 @@ ul.nav-pills {
 // Other
 // *------------------------------------------------*
 a, .fps-result a.search-link:visited .topic-title {
-  color: $color-yellow;
+  color: $color-red;
   &:hover {
-  color: $color-yellow;
+  color: $color-red;
   }
 }
 
 a:visited {
-  color: $color-yellow;
+  color: $color-red;
 }
 
 .open .grippie {
