@@ -3,7 +3,7 @@ background_image:
   default: default
   description: Enter image url
 
-tile_background: true
+tile_background: false
 
 no_background_image:
   default: false
