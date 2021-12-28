@@ -30,11 +30,8 @@ body {
   color: white;
 }
 
-.discourse-no-touch &:hover,
-.discourse-no-touch &:focus {
-  .d-icon {
-        color: transparent;
-  }
+.d-icon {
+  color: transparent;
 }
 
 .menu-panel {
